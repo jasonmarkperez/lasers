@@ -27,7 +27,8 @@ It uses `yarn` for package management, and `parcel` for bundling the various mod
   - graphics / logos
   - 3d models for parts
   - knob caps / fader caps
-  - displays (LCD, 8-segment)
+  - ~~displays (LCD, 8-segment)~~
+  - display cutouts (OLED, TFT, character LCD)
   - header pins
   - generic hole / round-rect / rect cutouts for whatever you want
   - PCB outline exporting (w or w/o marks for where features should go)
