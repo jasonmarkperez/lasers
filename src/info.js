@@ -29,7 +29,8 @@ const info = {
       rotarypot: "Rotary Potentiometer",
       slidepot: "Slide Potentiometer",
       toggleswitch: "Toggle Switch",
-      led: "LED"
+      led: "LED",
+      display: "Display"
     },
   
     // horizontal pitch options
@@ -92,6 +93,18 @@ const info = {
         { display:  "5x2mm rectangle",      identifier: "5x2mm-rect",  size: [5, 2] , shape: ShapeTypes.Rectangle },
         { display:  "3mm round",            identifier: "3mm-round",   size: 3      , shape: ShapeTypes.Circle },
         { display:  "1.8mm round",          identifier: "1.8mm-round", size: 1.8    , shape: ShapeTypes.Circle },
+      ],
+      display: [
+        { display: "0.96\" OLED (128x64)",    identifier: "oled-0.96",     size: [24, 14], shape: ShapeTypes.Rectangle },
+        { display: "1.3\" OLED (128x64)",     identifier: "oled-1.3-64",  size: [30, 18], shape: ShapeTypes.Rectangle },
+        { display: "1.3\" OLED (128x128)",    identifier: "oled-1.3-128", size: [28, 28], shape: ShapeTypes.Rectangle },
+        { display: "1.5\" OLED (128x128)",    identifier: "oled-1.5-128", size: [32, 32], shape: ShapeTypes.Rectangle },
+        { display: "1.3-2\" TFT (240x240)",   identifier: "tft-240",      size: [34, 34], shape: ShapeTypes.Rectangle },
+        { display: "2.4-2.8\" TFT (320x240)", identifier: "tft-320",      size: [55, 40], shape: ShapeTypes.Rectangle },
+        { display: "3.2\" TFT (480x320)",     identifier: "tft-480",      size: [72, 53], shape: ShapeTypes.Rectangle },
+        { display: "16x2 Character LCD",      identifier: "char-16x2",    size: [60, 16], shape: ShapeTypes.Rectangle },
+        { display: "20x4 Character LCD",      identifier: "char-20x4",    size: [76, 25], shape: ShapeTypes.Rectangle },
+        { display: "Single 7-seg",            identifier: "7seg",         size: [10, 18], shape: ShapeTypes.Rectangle }
       ]
     },
 
@@ -101,6 +114,7 @@ const info = {
       slidepot: 2,
       toggleswitch: 1,
       led: 0,
+      display: 0,
     },
   
     // these are potential positioning frames of reference.
