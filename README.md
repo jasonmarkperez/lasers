@@ -11,6 +11,8 @@ Interface stuff is done with [AlpineJS](https://alpinejs.dev/), because I wanted
 
 It uses `yarn` for package management, and `parcel` for bundling the various modules up for the web, but you don't need to worry about that unless you're diving deep. To get started, all you need to know is:
 
+If you use Jetify Devbox, this repository includes a `devbox.json` file. Install the Jetify CLI (for example with `npm install -g @jetify/cli`) and start a devbox shell with `jetify devbox shell` before running the steps below. The devbox environment automatically provides Node.js and Yarn as declared in `devbox.json`.
+
 ## Development Guide
 
 1. If you don't have it already, [install yarn](https://yarnpkg.com/getting-started/install).
